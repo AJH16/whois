@@ -42,7 +42,7 @@ namespace Whois.Parsing.Whois.Eu.Eu
             Assert.AreEqual("ns1.eurid.eu", response.NameServers[3]);
             Assert.AreEqual("ns2.eurid.eu", response.NameServers[4]);
 
-            Assert.AreEqual(8, response.FieldsParsed);
+            Assert.AreEqual(9, response.FieldsParsed);
         }
 
         [Test]

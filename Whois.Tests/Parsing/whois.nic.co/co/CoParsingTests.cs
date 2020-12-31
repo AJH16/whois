@@ -144,7 +144,7 @@ namespace Whois.Parsing.Whois.Nic.Co.Co
             Assert.AreEqual(1, response.DomainStatus.Count);
             Assert.AreEqual("clientTransferProhibited", response.DomainStatus[0]);
 
-            Assert.AreEqual(65, response.FieldsParsed);
+            Assert.AreEqual(66, response.FieldsParsed);
         }
     }
 }

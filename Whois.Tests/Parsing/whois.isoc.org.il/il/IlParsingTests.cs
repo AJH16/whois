@@ -118,7 +118,7 @@ namespace Whois.Parsing.Whois.Isoc.Org.Il.Il
             Assert.AreEqual(1, response.DomainStatus.Count);
             Assert.AreEqual("Transfer Allowed", response.DomainStatus[0]);
 
-            Assert.AreEqual(27, response.FieldsParsed);
+            Assert.AreEqual(28, response.FieldsParsed);
         }
 
         [Test]
@@ -216,7 +216,7 @@ namespace Whois.Parsing.Whois.Isoc.Org.Il.Il
             Assert.AreEqual(1, response.DomainStatus.Count);
             Assert.AreEqual("Transfer Locked", response.DomainStatus[0]);
 
-            Assert.AreEqual(56, response.FieldsParsed);
+            Assert.AreEqual(57, response.FieldsParsed);
         }
 
         [Test]
@@ -329,7 +329,7 @@ namespace Whois.Parsing.Whois.Isoc.Org.Il.Il
             Assert.AreEqual(1, response.DomainStatus.Count);
             Assert.AreEqual("Transfer Locked", response.DomainStatus[0]);
 
-            Assert.AreEqual(48, response.FieldsParsed);
+            Assert.AreEqual(49, response.FieldsParsed);
         }
     }
 }

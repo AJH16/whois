@@ -127,7 +127,7 @@ namespace Whois.Parsing.Whois.Nic.St.St
             Assert.AreEqual(1, response.DomainStatus.Count);
             Assert.AreEqual("clientUpdateProhibited", response.DomainStatus[0]);
 
-            Assert.AreEqual(53, response.FieldsParsed);
+            Assert.AreEqual(54, response.FieldsParsed);
         }
     }
 }

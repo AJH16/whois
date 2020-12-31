@@ -132,7 +132,7 @@ namespace Whois.Parsing.Whois.Centralnic.Com.GbCom
             Assert.AreEqual("serverTransferProhibited", response.DomainStatus[0]);
 
             Assert.AreEqual("Unsigned", response.DnsSecStatus);
-            Assert.AreEqual(52, response.FieldsParsed);
+            Assert.AreEqual(53, response.FieldsParsed);
         }
     }
 }

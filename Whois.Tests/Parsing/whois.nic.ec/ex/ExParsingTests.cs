@@ -55,8 +55,9 @@ namespace Whois.Parsing.Whois.Nic.Ec.Ex
             Assert.AreEqual(new DateTime(2013, 09, 17, 00, 00, 00, 000, DateTimeKind.Utc), response.Updated);
             Assert.AreEqual(new DateTime(2003, 10, 16, 00, 00, 00, 000, DateTimeKind.Utc), response.Registered);
             Assert.AreEqual(new DateTime(2014, 10, 16, 00, 00, 00, 000, DateTimeKind.Utc), response.Expiration);
+            Assert.AreEqual("www.markmonitor.com", response.Registrar.Url);
 
-             // Registrant Details
+            // Registrant Details
             Assert.AreEqual("Rose Hagan", response.Registrant.Name);
             Assert.AreEqual("Google Inc.", response.Registrant.Organization);
             Assert.AreEqual("1-6503300100", response.Registrant.TelephoneNumber);
@@ -90,7 +91,7 @@ namespace Whois.Parsing.Whois.Nic.Ec.Ex
             Assert.AreEqual("ns3.google.com", response.NameServers[2]);
             Assert.AreEqual("ns4.google.com", response.NameServers[3]);
 
-            Assert.AreEqual(26, response.FieldsParsed);
+            Assert.AreEqual(27, response.FieldsParsed);
         }
     }
 }

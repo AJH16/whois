@@ -326,7 +326,7 @@ namespace Whois.Parsing.Whois.Nic.Travel.Travel
             Assert.AreEqual(1, response.DomainStatus.Count);
             Assert.AreEqual("ok", response.DomainStatus[0]);
 
-            Assert.AreEqual(49, response.FieldsParsed);
+            Assert.AreEqual(50, response.FieldsParsed);
         }
     }
 }

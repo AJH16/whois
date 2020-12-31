@@ -124,7 +124,7 @@ namespace Whois.Parsing.Whois.Nic.Gd.Gd
             Assert.AreEqual("clientupdateprohibited", response.DomainStatus[0]);
             Assert.AreEqual("clienttransferprohibited", response.DomainStatus[1]);
 
-            Assert.AreEqual(49, response.FieldsParsed);
+            Assert.AreEqual(50, response.FieldsParsed);
         }
 
         [Test]

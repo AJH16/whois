@@ -121,7 +121,7 @@ namespace Whois.Parsing.Whois.Biz.Biz
             Assert.AreEqual("clientUpdateProhibited", response.DomainStatus[2]);
 
             Assert.AreEqual("unsigned", response.DnsSecStatus);
-            Assert.AreEqual(51, response.FieldsParsed);
+            Assert.AreEqual(52, response.FieldsParsed);
         }
     }
 }

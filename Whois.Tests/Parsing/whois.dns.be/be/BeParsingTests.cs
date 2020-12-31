@@ -47,7 +47,7 @@ namespace Whois.Parsing.Whois.Dns.Be.Be
             Assert.AreEqual(1, response.DomainStatus.Count);
             Assert.AreEqual("NOT AVAILABLE", response.DomainStatus[0]);
 
-            Assert.AreEqual(10, response.FieldsParsed);
+            Assert.AreEqual(11, response.FieldsParsed);
         }
 
         [Test]
@@ -120,7 +120,7 @@ namespace Whois.Parsing.Whois.Dns.Be.Be
             Assert.AreEqual(1, response.DomainStatus.Count);
             Assert.AreEqual("NOT AVAILABLE", response.DomainStatus[0]);
 
-            Assert.AreEqual(12, response.FieldsParsed);
+            Assert.AreEqual(13, response.FieldsParsed);
         }
 
         [Test]
@@ -159,7 +159,7 @@ namespace Whois.Parsing.Whois.Dns.Be.Be
             Assert.AreEqual(1, response.DomainStatus.Count);
             Assert.AreEqual("OUT OF SERVICE", response.DomainStatus[0]);
 
-            Assert.AreEqual(13, response.FieldsParsed);
+            Assert.AreEqual(14, response.FieldsParsed);
         }
 
         [Test]

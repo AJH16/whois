@@ -115,7 +115,7 @@ namespace Whois.Parsing.Whois.Nic.Dm.Dm
             Assert.AreEqual(1, response.DomainStatus.Count);
             Assert.AreEqual("ACTIVE", response.DomainStatus[0]);
 
-            Assert.AreEqual(38, response.FieldsParsed);
+            Assert.AreEqual(39, response.FieldsParsed);
         }
     }
 }

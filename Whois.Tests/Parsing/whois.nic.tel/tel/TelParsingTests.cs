@@ -143,7 +143,7 @@ namespace Whois.Parsing.Whois.Nic.Tel.Tel
             Assert.AreEqual("clientTransferProhibited", response.DomainStatus[1]);
             Assert.AreEqual("clientUpdateProhibited", response.DomainStatus[2]);
 
-            Assert.AreEqual(64, response.FieldsParsed);
+            Assert.AreEqual(65, response.FieldsParsed);
         }
     }
 }

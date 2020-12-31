@@ -114,7 +114,7 @@ namespace Whois.Parsing.Whois.Centralnic.Com.EuCom
             Assert.AreEqual("ok", response.DomainStatus[0]);
 
             Assert.AreEqual("Unsigned", response.DnsSecStatus);
-            Assert.AreEqual(40, response.FieldsParsed);
+            Assert.AreEqual(41, response.FieldsParsed);
         }
     }
 }
